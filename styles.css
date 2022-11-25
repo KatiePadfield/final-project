@@ -1,6 +1,15 @@
-ul  {
+body {
+    background-color: #F4E4DD;
+}
+
+header {
+    background-color: #F7C8CE;
+    padding: 20px;
+}
+
+ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    align-items: flex-start;
 }
