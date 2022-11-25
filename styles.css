@@ -28,3 +28,45 @@ a:hover {
     justify-content: flex-start;
     text-align: center;
 }
+
+.section-one {
+    padding: 40px;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+section-two {
+    padding: 40px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+section-three{
+    padding: 40px;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.section-four {
+    padding: 40px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.right-text {
+    text-align: right;
+}
