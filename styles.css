@@ -31,8 +31,6 @@ button {
     border: 1px;
     border-radius: 15px;
     font-size: 20px;
-    width: 120px;
-    height: 40px;
 
 }
 
@@ -43,13 +41,27 @@ button:hover {
 .back-button {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+
+}
+
+.back-button-style {
+    width: 120px;
+    height: 40px;
+}
+
+.sub-header {
+    padding: 1px;
 }
 
 /* index */
+
+.index-button {
+    width: 120px;
+    height: 40px;
+}
 
 .index-header{
     padding: 40px;
@@ -154,9 +166,7 @@ h2 {
     gap: 100px;
 
 }
-.code-header {
-    padding: 1px;
-}
+
 /* typography */
 
 .typography {
@@ -187,7 +197,4 @@ h1 {
     font-size: 60px;
 }
 
-.typo-header {
-    padding: 1px;
-}
 
