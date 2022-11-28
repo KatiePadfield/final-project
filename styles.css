@@ -1,12 +1,13 @@
 body {
-    background-color: #C2CCB4;
+    background-image: linear-gradient(to bottom right, #E8A6B5, #949AA6);
 }
 
 header {
-    background-color: #FFD4DC;
+    background-color: #FFD4DCAB;
     padding: 40px;
     margin-left: 30px;
     margin-right: 30px;
+    border-radius: 15px;
 }
 
 
