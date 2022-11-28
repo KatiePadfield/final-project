@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(to bottom right, #E8A6B5, #949AA6);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 header {
@@ -93,6 +94,7 @@ h2 {
 }
 
 button { 
+    color: ;
     border: 3px;
     border-radius: 15px;
     font-size: 20px;
