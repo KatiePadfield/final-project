@@ -10,7 +10,7 @@ header {
 }
 
 
-a {
+.jump {
     text-decoration: none;
     color: #949AA6;
     font-size: 40px;
@@ -19,11 +19,11 @@ a {
     
 }
 
-a:hover {
+.jump:hover {
      color: #A7B588;
 }
 
-.links {
+.links { 
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -96,7 +96,10 @@ button {
     font-size: 20px;
     width: 120px;
     height: 40px;
-    margin-top:10px;
+
+}
+
+.button-link {
     margin-left: auto;
     margin-right: auto;
 }
