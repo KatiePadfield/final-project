@@ -1,3 +1,8 @@
+/* all */
+html {
+    min-height: 100%;
+}
+
 body {
     background-image: linear-gradient(to bottom right, #E8A6B5, #949AA6);
     font-family: 'Josefin Sans', sans-serif;
@@ -11,10 +16,18 @@ header {
     border-radius: 15px;
 }
 
+img {
+    border-radius: 5px;
+}
 
+img:hover {
+    transform: scale(115%);
+}
+
+/* index */
 .jump {
     text-decoration: none;
-    color: #949AA6;
+    color: whitesmoke;
     font-size: 40px;
     padding-left: 60px;
     padding-right: 60px;
@@ -22,7 +35,7 @@ header {
 }
 
 .jump:hover {
-     color: #A7B588;
+     color: #E8A6B5;
 }
 
 .links { 
@@ -94,8 +107,10 @@ h2 {
 }
 
 button { 
-    color: ;
-    border: 3px;
+    border-color: #C2CCB4;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #E8A6B5;
+    border: 1px;
     border-radius: 15px;
     font-size: 20px;
     width: 120px;
@@ -110,4 +125,23 @@ button:hover {
 .button-link {
     margin-left: auto;
     margin-right: auto;
+}
+
+/* typography */
+
+.typography {
+    padding: 40px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+
+}
+.column {
+    flex-direction: column;
+    text-align: center;
 }
