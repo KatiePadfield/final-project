@@ -23,6 +23,32 @@ img:hover {
     transform: scale(115%);
 }
 
+
+button { 
+    border-color: #C2CCB4;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #E8A6B5;
+    border: 1px;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+
+}
+
+button:hover {
+    transform: scale(125%);
+}
+
+.back-button {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
 /* index */
 
 .index-header{
@@ -110,27 +136,27 @@ h2 {
     margin-left: 40px;
 }
 
-button { 
-    border-color: #C2CCB4;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #E8A6B5;
-    border: 1px;
-    border-radius: 15px;
-    font-size: 20px;
-    width: 120px;
-    height: 40px;
-
-}
-
-button:hover {
-    transform: scale(125%);
-}
-
 .button-link {
     margin-left: auto;
     margin-right: auto;
 }
 
+/* coding */
+
+.code {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+.code-header {
+    padding: 1px;
+}
 /* typography */
 
 .typography {
@@ -164,3 +190,4 @@ h1 {
 .typo-header {
     padding: 1px;
 }
+
