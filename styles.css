@@ -73,6 +73,30 @@ a:hover {
 
 }
 
+h2 {
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .right-text {
     text-align: right;
+    margin-right: 40px;
+}
+
+.left-text {
+    margin-left: 40px;
+}
+
+button { 
+    border: 3px;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
 }
