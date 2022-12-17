@@ -167,7 +167,23 @@ h2 {
 
 /* CARP */
 .carp {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 
+.carp-image {
+    transform: scale(30%);
+    margin: -500px;
+}
+
+.carp-image:hover {
+    transform: scale(40%);
 }
 
 /* coding */
