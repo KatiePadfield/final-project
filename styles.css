@@ -102,7 +102,7 @@ button:hover {
 .section-one {
     padding: 40px;
     padding-top: 50px;
-    padding-left: 100px;
+    padding-left: 80px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -123,7 +123,7 @@ button:hover {
 
 .section-three {
     padding: 40px;
-    padding-left: 100px;
+    padding-left: 80px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -163,6 +163,14 @@ h2 {
 .button-link {
     margin-left: auto;
     margin-right: auto;
+}
+
+.thumbnail {
+    transform: scale(60%);
+}
+
+.thumbnail:hover {
+    transform: scale(70%);
 }
 
 /* CARP */
