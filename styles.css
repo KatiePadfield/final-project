@@ -208,6 +208,14 @@ h2 {
 
 }
 
+.code-text {
+    margin-top: 50px;
+}
+
+.code-image {
+    padding: 40px;
+}
+
 /* typography */
 
 .typography {
