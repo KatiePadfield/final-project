@@ -266,3 +266,18 @@ p {
     padding-right: 700px;
     color: whitesmoke;
 }
+
+/* UX */
+
+.ux-text {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.ux-image {
+    transform: scale(80%);
+}
+
+.ux-image:hover {
+    transform: scale(90%);
+}
